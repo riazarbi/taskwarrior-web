@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-task-web
+task-web -L -F
