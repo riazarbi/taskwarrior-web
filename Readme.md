@@ -1,9 +1,8 @@
-# taskwarrior-web in docker container 
+# Taskwarrior-Web in a Docker Container
 
-todo readme
+This is a super simple image based on alpine 3.5 that runs taskwarrior-web on port 5678.
 
-
-##with sync server 
+## Sample Docker Run With Sync Server 
 
 docker run -d \
   --name=taskwarrior-web \
@@ -13,8 +12,7 @@ docker run -d \
   -e TASKD_CREDENTIALS='AlphaV/Alexey Vildyaev/3e382537-d7d9-4677-8311-3cfd1047623f' \
   f2a1c74860ae
 
-
-##without sync server 
+## Sample Docker Run Without Sync Server 
 
 docker run -d \
   --name=taskwarrior-web \
