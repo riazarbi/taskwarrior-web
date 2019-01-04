@@ -20,9 +20,9 @@ if ! test -e /root/.taskrc; then
 		task config taskd.key 			-- /root/.task/client.key.pem
 		task config taskd.ca 			-- /root/.task/ca.cert.pem
         task config taskd.trust 		-- strict
-    	task add "Doker hav0k/taskwarrior-web init with sync. Delete me."
+    	task add "Docker hav0k/taskwarrior-web init with sync. Delete me."
     else
-    	task add "Doker hav0k/taskwarrior-web init without sync. Delete me."
+    	task add "Docker hav0k/taskwarrior-web init without sync. Delete me."
     fi
 fi
 
